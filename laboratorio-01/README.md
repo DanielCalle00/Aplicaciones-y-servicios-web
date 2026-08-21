@@ -32,7 +32,7 @@ Aplicaciones-y-servicios-web/
 
 Le di a la opción de deshabilitar la caché y recargué la página. En total me mostró que hizo 130 peticiones, pesó más o menos 6.2 MB y se demoró casi 12.5 segundos en cargar del todo.
 
-![Recuercos cargados de la aplicacion](envidencias/network.png)
+![Recuercos cargados de la aplicacion](evidencias/network.png)
 
 Aquí puse 5 archivos de los que me salieron en la lista:
 
@@ -51,7 +51,7 @@ Aquí puse 5 archivos de los que me salieron en la lista:
 
 Escogí la primera petición que hace el navegador al entrar al enlace (`formatos-institucionales/`).
 
-![Analisis de la solicitud http](envidencias/request.png)
+![Analisis de la solicitud http](evidencias/request.png)
 
 | Datos | Lo que salió |
 | --- | --- |
@@ -71,7 +71,7 @@ En la pestaña Elements busqué un título `<h3>` que decía "Fuentes ITM".
 
 Le di doble clic para editarlo ahí mismo en la consola de Chrome y le escribí "Prueba de Daniel". Apenas le di enter, el texto cambió en la pantalla.
 
-![Inspeccion y modificacion del DOM](envidencias/dom.png)
+![Inspeccion y modificacion del DOM](evidencias/dom.png)
 
 ¿El cambio se guarda para los demás usuarios?
 
@@ -81,7 +81,7 @@ No, eso solo cambia en la pantalla de mi computador porque estoy editando lo que
 
 Hice la prueba dando clic en el botón para bajar el archivo comprimido de los membretes y miré qué pasaba en la pestaña Network.
 
-![Interaccion observada en el Network](envidencias/interaccion.png)
+![Interaccion observada en el Network](evidencias/interaccion.png)
 
 **Lo que hice:** Clic en "Descargar" en la parte de Membretes.
 
